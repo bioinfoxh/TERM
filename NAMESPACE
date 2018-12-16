@@ -1,0 +1,8 @@
+import(DESeq2)
+import(igraph)
+import(Matrix)
+import(corrplot)
+export(calculateDTE)
+export(detectTERM)
+export(term)
+export(plot_TERM)

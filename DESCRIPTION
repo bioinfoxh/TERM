@@ -1,0 +1,14 @@
+Package: term
+Type: Package
+Title: Identification of Translational Efficiency Regulated Modules
+        with ribosome profiling data
+Version: 1.0
+Date: 2018-01-28
+Author: Hui Xiao
+Maintainer: Hui Xiao <xiaohui1208@gmail.com>
+Description: The TERM package performs an integrative analysis of RNA-seq and Ribo-seq data with the multi-layer network framework. It constructs a two-layer differential co-expression networks based on the differential expression of mRNAs and ribosome footprints (RFPs). Translational Efficiency Regulated Modules (TERMs) are extracted by multi-layer networks clustering with statistically significant differential translated genes as seeds for searching.  
+Depends: DESeq2, igraph, Matrix, corrplot
+License: GPL (>=3)
+RoxygenNote: 6.0.1
+NeedsCompilation: no
+Packaged: 2018-02-07 19:42:57 UTC; Hui
